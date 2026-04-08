@@ -34,7 +34,7 @@ export default function About() {
               Our team combines technical expertise with artistic vision to deliver work that not only meets but exceeds expectations. From intimate portraits to large-scale productions, we approach each project with the same level of passion and dedication.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              We're not just service providers; we're your creative partners, committed to understanding your vision and bringing it to life in ways that inspire and captivate.
+              We&apos;re not just service providers; we&apos;re your creative partners, committed to understanding your vision and bringing it to life in ways that inspire and captivate.
             </p>
           </motion.div>
           <motion.div

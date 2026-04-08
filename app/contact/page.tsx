@@ -71,7 +71,7 @@ export default function Contact() {
                 className="bg-green-100 dark:bg-green-900 p-6 rounded-lg"
               >
                 <p className="text-green-800 dark:text-green-200 text-center">
-                  Thank you for your message! We'll get back to you soon.
+                  Thank you for your message! We&apos;ll get back to you soon.
                 </p>
               </motion.div>
             ) : (
