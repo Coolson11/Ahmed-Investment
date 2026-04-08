@@ -42,7 +42,7 @@ export default function Testimonials() {
               className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg"
             >
               <p className="text-gray-600 dark:text-gray-300 mb-4 italic">
-                "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
               </p>
               <div>
                 <p className="font-semibold">{testimonial.author}</p>
