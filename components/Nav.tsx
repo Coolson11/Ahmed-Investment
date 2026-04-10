@@ -19,10 +19,7 @@ export default function Nav() {
   }, [])
 
   return (
-    <motion.nav
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.5 }}
+    <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         scrolled
           ? 'bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-lg'
@@ -72,6 +69,6 @@ export default function Nav() {
           </motion.div>
         )}
       </AnimatePresence>
-    </motion.nav>
+    </nav>
   )
 }

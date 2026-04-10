@@ -62,35 +62,35 @@ export default function About() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <Image
-                src="/team-member1.jpg"
-                alt="Team member 1"
+                src="/assets/staffs/boyka.jpeg"
+                alt="Boyka"
                 width={200}
                 height={200}
                 className="rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-semibold">Alice Johnson</h3>
+              <h3 className="text-xl font-semibold">Boyka</h3>
               <p className="text-gray-600 dark:text-gray-300">Lead Photographer</p>
             </div>
             <div className="text-center">
               <Image
-                src="/team-member2.jpg"
-                alt="Team member 2"
+                src="/assets/staffs/jahmiel.jpeg"
+                alt="Jahmiel"
                 width={200}
                 height={200}
                 className="rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-semibold">Bob Smith</h3>
+              <h3 className="text-xl font-semibold">Jahmiel</h3>
               <p className="text-gray-600 dark:text-gray-300">Videographer</p>
             </div>
             <div className="text-center">
               <Image
-                src="/team-member3.jpg"
-                alt="Team member 3"
+                src="/assets/staffs/kemz.jpeg"
+                alt="Kemz"
                 width={200}
                 height={200}
                 className="rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-semibold">Carol Davis</h3>
+              <h3 className="text-xl font-semibold">Kemz</h3>
               <p className="text-gray-600 dark:text-gray-300">Graphic Designer</p>
             </div>
           </div>

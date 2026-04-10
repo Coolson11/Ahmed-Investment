@@ -6,23 +6,17 @@ import Link from 'next/link'
 export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Video Background */}
-      <video
-        autoPlay
-        loop
-        muted
-        className="absolute inset-0 w-full h-full object-cover"
-      >
-        <source src="/hero-video.mp4" type="video/mp4" />
-        {/* Fallback */}
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 to-black"></div>
-      </video>
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 z-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('/assets/back/ahmed-back.jpg')" }}
+      />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 z-10 bg-black bg-opacity-50" />
 
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-4">
+      <div className="relative z-20 text-center text-white px-4">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
