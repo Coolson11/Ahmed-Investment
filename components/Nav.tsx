@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import Image from 'next/image'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
 import ThemeToggle from './ThemeToggle'
@@ -28,8 +29,17 @@ export default function Nav() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className={`text-2xl font-bold ${scrolled ? 'text-gray-900 dark:text-white' : 'text-white'}`}>
-            Pic Solution
+          <Link href="/" className="flex items-center gap-3">
+            <Image
+              src="https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK89M2OvyskOWpFrP30bLUytDQvzZiKTjxHgMwA"
+              alt="Logo"
+              width={40}
+              height={40}
+              className="rounded-full"
+            />
+            <span className={`text-2xl font-bold ${scrolled ? 'text-gray-900 dark:text-white' : 'text-white'}`}>
+              Pic Solution
+            </span>
           </Link>
           <div className="hidden md:flex space-x-8">
             <Link href="/" className={`${scrolled ? 'text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300' : 'text-white hover:text-gray-300'} transition-colors font-medium`}>Home</Link>

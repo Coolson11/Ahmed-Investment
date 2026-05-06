@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Ahmed Investment',
   description: 'Specializing in photography, videography, and graphic design',
+  icons: {
+    icon: 'https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK89M2OvyskOWpFrP30bLUytDQvzZiKTjxHgMwA',
+  },
 }
 
 export default function RootLayout({
