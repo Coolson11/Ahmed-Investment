@@ -62,7 +62,7 @@ export default function About() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <Image
-                src="/assets/staffs/boyka.jpeg"
+                src="https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK8TocbnQaNCPtxu7JrRqa4Fc9n6YKhVgS5zyAb"
                 alt="Boyka"
                 width={200}
                 height={200}
@@ -73,7 +73,7 @@ export default function About() {
             </div>
             <div className="text-center">
               <Image
-                src="/assets/staffs/jahmiel.jpeg"
+                src="https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK8zgKD1InvKO1VkexdpGMhNRSPyACU6T0f5Q4W"
                 alt="Jahmiel"
                 width={200}
                 height={200}
@@ -84,7 +84,7 @@ export default function About() {
             </div>
             <div className="text-center">
               <Image
-                src="/assets/staffs/kemz.jpeg"
+                src="https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK8Rlxe1R7uIbfmcTYazDdAt81LM2nrxCQ7NOSj"
                 alt="Kemz"
                 width={200}
                 height={200}

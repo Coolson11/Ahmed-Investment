@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Background Image */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/assets/back/ahmed-back.jpg')" }}
+        style={{ backgroundImage: "url('https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK8Omv2J0d3jbzYaKShdfr7lURZswuQE01LPA8V')" }}
       />
 
       {/* Overlay */}

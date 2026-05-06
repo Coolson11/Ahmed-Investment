@@ -4,12 +4,12 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 
 const portfolioItems = [
-  { id: 1, src: '/assets/design/design-01.jpeg', alt: 'Graphic design work 1', category: 'Graphic Design' },
-  { id: 2, src: '/assets/design/design-02.jpeg', alt: 'Graphic design work 2', category: 'Graphic Design' },
-  { id: 3, src: '/assets/design/design-03.jpeg', alt: 'Graphic design work 3', category: 'Graphic Design' },
-  { id: 4, src: '/assets/design/design-04.jpeg', alt: 'Graphic design work 4', category: 'Graphic Design' },
-  { id: 5, src: '/assets/photo/photo-01.jpeg', alt: 'Photography work 1', category: 'Photography' },
-  { id: 6, src: '/assets/photo/photo-02.jpeg', alt: 'Photography work 2', category: 'Photography' },
+  { id: 1, src: 'https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK8hSDSz3GHo1vkZIC0lTbEcRXrPxsy7WO2qtmL', alt: 'Graphic design work 1', category: 'Graphic Design' },
+  { id: 2, src: 'https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK8tynGKiwkef3J7zrZFHIoTA25Shi4Unaju9cE', alt: 'Graphic design work 2', category: 'Graphic Design' },
+  { id: 3, src: 'https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK8uzbCcZUt7vAwKPi8bgmY6SyGxZUXTqMFpl4s', alt: 'Graphic design work 3', category: 'Graphic Design' },
+  { id: 4, src: 'https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK8kcZqMvi7Nf9zgt2hJw1oaCdkcGMqTEbXlinj', alt: 'Graphic design work 4', category: 'Graphic Design' },
+  { id: 5, src: 'https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK8cEBLfRVQNDw63yL5G0uzcVZR8HfaMY1AokjF', alt: 'Photography work 1', category: 'Photography' },
+  { id: 6, src: 'https://ngrzf4k9ko.ufs.sh/f/e4Sw6wFIONK8tjoqvvkef3J7zrZFHIoTA25Shi4Unaju9cEQ', alt: 'Photography work 2', category: 'Photography' },
 ]
 
 export default function PortfolioHighlights() {
